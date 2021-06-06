@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    width: 250px;
+    text-align: center;
+    margin-left: 42%;
+    margin-right: 42%;
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    background-color: khaki;
+    border-color: black;
+    border-radius: 10px;
+    transition-property: background-color, margin, width;
+    transition-duration: 3s;
+}
+
+h1:hover {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background-color: pink;
+}
+
+#cat {
+    font-size: 20px;
+    color: rgb(13, 143, 45);
+}
+
+#cate {
+    text-align: center;
+}
+
+.but {
+    display: inline;
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(13, 143, 45);
+    background-color: khaki;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.but:hover {
+    display: inline;
+    margin: 10px;
+    font-size: 25px;
+    color: red;
+    background-color: pink;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.but:disabled {
+    display: inline;
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(185, 183, 183);
+    background-color: rgb(241, 236, 190);
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+
+}
+#form {
+    margin: 15px;
+}
+.g {
+    height: auto;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#array {
+    font-size: 25px;
+}
+#tex {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 90px;
+    height: auto;
+}
+.a {
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: khaki;
+    color: black;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+.a:hover {
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: pink;
+    color: black;
+}
+canvas {
+    background: white;
+}
